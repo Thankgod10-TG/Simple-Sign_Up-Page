@@ -1,0 +1,27 @@
+html, body{
+    background-image: url(../img/image20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+#container{
+    border-radius: 20px;
+    margin-top: 12%;
+}
+input[type=text], input[type=password], input[type=date], input[type=email], input[type=tel]{
+    border-radius: 20px;
+}
+  img{
+      border-radius: 0 20px 20px 0;
+}
+  #Login{
+      border-radius: 20px;
+      margin-top: 1%;
+}
+h4{
+    font-family: Roboto
+}
+#Login{
+
+}

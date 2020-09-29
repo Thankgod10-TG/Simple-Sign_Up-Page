@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="http://kit.fontawesome.com/8ab6afd136.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/SignUp.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="row"> </div>
+    <div class="container col-md-6 bg-warning" id="container">
+      <form class="was-validated">
+        <h2 class="text-center text-white">Welcome</h2>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="First Name" required>
+                <input type="text" class="form-control" placeholder="Last Name" required>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" required>
+              <small class="form-text text-muted text-center">Email must not be less than 8 characters</small>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <input type="tel" class="form-control" placeholder="Phone" required>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+             <div class="input-group mb-3">
+              <input type="password" class="form-control" placeholder="password" required>
+              <div class="input-group-append">
+                <span class="input-group-icon"><img src="img/eye.jpg" alt="eye"></span>
+              </div>
+             </div>
+            </div>
+            <small class="form-text text-muted text-center">Password must not be less than 6 characters</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <input type="date" class="form-control" placeholder="dd/mm/yyyy" required>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group text-center">
+              <label for="" class="gender"> Gender</label>
+              <div class="custom-control custom-switch">
+                <input type="radio" class="custom-control-input" id="switch1" name="gender" required>
+                <label for="switch1" class="custom-control-label"> Male</label>
+              </div>
+              <div class="custom-control custom-switch">
+                <input type="radio" class="custom-control-input" id="switch2" name="gender" required>
+                <label for="switch2" class="custom-control-label"> Female</label>
+              </div>
+              <div class="custom-control custom-switch">
+                <input type="radio" class="custom-control-input" id="switch3" name="gender" required>
+                <label for="switch3" class="custom-control-label">Rather not to say</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button text-center mb-3">
+          <button class="btn btn-danger btn-md mb-3" type="reset" style="border-radius: 20px ;">Reset</button>
+          <button class="btn btn-danger btn-md mb-3" type="submit" style="border-radius:20px ;">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-outline-danger text-white" id="Login">Log_In Instead</button>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>
+ hujn
+</body>
+</html>
